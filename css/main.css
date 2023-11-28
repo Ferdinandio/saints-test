@@ -1,0 +1,1000 @@
+.sc-1 {
+    background: var(--yelow-text);
+    background: url('../assets/images/head/head-bg.png') no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+.sc-1 .granos-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 0;
+}
+.sc-1 .granos-2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    z-index: 0;
+}
+.sc-1 .man {
+    width: 540px;
+    height: 715px;
+    position: absolute;
+    bottom: 0;
+    right: 91px;
+    z-index: 1;
+}
+.sc-1 .wrapper-head {
+    padding-top: 26px;
+    padding-bottom: 146px;
+    position: relative;
+    z-index: 2;
+}
+.sc-1 .wrapper-head .head-logo {
+    width: 195px;
+    height: 96px;
+    margin-bottom: 24px;
+}
+.sc-1 .wrapper-head h2.head-text {
+    /*max-width: 629px;*/
+    color: var(--dark-text-2);
+    font-family: "MuseoSansCyrlThin";
+    font-size: 44px;
+    margin-bottom: 24px;
+}
+.sc-1 .wrapper-head h3.head-text {
+    max-width: 501px;
+    color: var(--dark-text-2);
+    font-family: "MuseoSansCyrlThin";
+    font-size: 35px;
+    margin-bottom: 53px;
+    letter-spacing: -.7px;
+}
+.sc-1 .wrapper-head h3.head-text b {
+    color: var(--dark-text-2);
+    font-family: "HelveticaNeueCyrRoman";
+    font-size: 35px;
+}
+.sc-1 .wrapper-head .dates {
+    display: flex;
+    gap: 22px;
+    margin-bottom: 53px;
+    position: relative;
+}
+.sc-1 .wrapper-head .dates .date {
+    width: 209px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    padding: 5px 15px;
+    background: var(--grey-bg-2);
+    border-radius: 10px;
+}
+.sc-1 .wrapper-head .dates .date .date__num {
+    font-family: "HelveticaNeueCyrRoman";
+    font-size: 40px;
+    color: var(--white-text);
+}
+.sc-1 .wrapper-head .dates .date .date__right .date__month {
+    font-family: "HelveticaNeueCyrRoman";
+    font-size: 18px;
+    color: var(--white-text);
+}
+.sc-1 .wrapper-head .dates .date .date__right .date__term {
+    font-family: "MuseoSansCyrlThin";
+    font-size: 12px;
+    color: var(--green-text);
+}
+.sc-1 .wrapper-head .buttons {
+    display: flex;
+    gap: 16px;
+}
+.sc-1 .wrapper-head .buttons .head-btn {
+    width: 285px;
+    height: 70px;
+    font-family: "HelveticaNeueCyrRoman";
+    font-size: 18px;
+    background: var(--red);
+    color: var(--white-text);
+    border-radius: 5px;
+
+}
+.sc-1 .wrapper-head .buttons .head-btn--transparent {
+    width: 279px;
+    background: var(--transparent);
+    color: var(--dark-text-1);
+    border: 1px solid var(--dark-text-1);
+}
+.sc-1 .wrapper-head .buttons .head-btn--transparent:hover {
+    box-shadow: 0px 1px 12px 1px var(--grey-bg-2);
+}
+
+/*section 2*/
+.sc-2 {
+    background: var(--white-text);
+    position: relative;
+}
+.sc-2 .wrapper-sc-2 {
+    padding-top: 90px;
+    padding-bottom: 96px;
+}
+.sc-2 .wrapper-sc-2 h2.h2 {
+    font-family: "HelveticaNeueCyrBold";
+    font-size: 37px;
+    color: var(--dark-text-1);
+    text-align: center;
+    margin-bottom: 85px;
+}
+.sc-2 .wrapper-sc-2 .cards {
+    display: flex;
+    gap: 11px;
+    margin-bottom: 92px;
+}
+.sc-2 .wrapper-sc-2 .cards .card {
+    width: 100%;
+    padding: 32px 24px 22px;
+    border-radius: 10px;
+    border: 1px solid var(--grey-border);
+}
+.sc-2 .wrapper-sc-2 .cards .card .card__title {
+    font-family: "HelveticaNeueCyrMedium";
+    font-size: 26px;
+    color: var(--dark-navy-text);
+    text-align: center;
+    margin-bottom: 32px;
+}
+.sc-2 .wrapper-sc-2 .cards .card .card__price {
+    font-family: "HelveticaNeueCyrRoman";
+    font-size: 50px;
+    color: var(--dark-navy-text);
+    margin-bottom: 7px;
+    line-height: 54px;
+    position: relative;
+}
+.sc-2 .wrapper-sc-2 .cards .card .card__price .card__discount {
+    width: 69px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "HelveticaNeueCyrRoman";
+    font-size: 19px;
+    background: var(--red);
+    color: var(--white-text);
+    border-radius: 5px;
+    position: absolute;
+    right: 2px;
+    bottom: -13px;
+}
+.sc-2 .wrapper-sc-2 .cards .card .card__old-price {
+    display: inline-block;
+    font-family: "HelveticaNeueCyrRoman";
+    font-size: 24px;
+    color: var(--grey-text-2);
+    margin-bottom: 34px;
+    line-height: 108%;
+    padding-left: 4px;
+    padding-right: 8px;
+    position: relative;
+}
+.sc-2 .wrapper-sc-2 .cards .card .card__old-price .card__across-line {
+    width: 100%;
+    height: 2px;
+    background: var(--red);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.sc-2 .wrapper-sc-2 .cards .card .card__points {
+    margin-bottom: 25px;
+}
+.sc-2 .wrapper-sc-2 .cards .card .card__point {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+.sc-2 .wrapper-sc-2 .cards .card .card__point .card__point-check {
+    stroke: var(--grey-bg-1);
+}
+.sc-2 .wrapper-sc-2 .cards .card .card__point .card__point-text {
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--grey-bg-1);
+}
+
+.sc-2 .wrapper-sc-2 .cards .card .card__point:first-child .card__point-check, .sc-2 .wrapper-sc-2 .cards .card .card__point:last-child .card__point-check {
+    stroke: var(--dark-navy-text);
+}
+.sc-2 .wrapper-sc-2 .cards .card .card__point:first-child .card__point-text, .sc-2 .wrapper-sc-2 .cards .card .card__point:last-child .card__point-text {
+    font-weight: 600;
+    color: var(--dark-navy-text);
+}
+.sc-2 .wrapper-sc-2 .cards .card .card__point:last-child {
+    margin-bottom: unset;
+}
+
+.sc-2 .wrapper-sc-2 .cards .card .card__prepay {
+    font-family: "HelveticaNeueCyrRoman";
+    font-size: 22px;
+    line-height: 108%;
+    color: var(--grey-text-2);
+    margin-bottom: 6px;
+}
+.sc-2 .wrapper-sc-2 .cards .card .card__prepay-num {
+    font-family: "HelveticaNeueCyrMedium";
+    font-size: 32px;
+    line-height: 108%;
+    color: var(--dark-navy-text);
+    margin-bottom: 21px;
+}
+.sc-2 .wrapper-sc-2 .cards .card .card__prepay-link {
+    width: 100%;
+    display: block;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 23px;
+    text-transform: uppercase;
+    background: var(--red);
+    color: var(--white-text);
+    text-align: center;
+    border-radius: 10px;
+    padding: 12px 24px 8px;
+    margin-bottom: 12px;
+    letter-spacing: -0.2px;
+    text-decoration: none;
+    transition-duration: .2s;
+}
+.sc-2 .wrapper-sc-2 .cards .card .card__prepay-link:hover {
+    opacity: 0.8;
+    box-shadow: 0px 1px 12px 4px var(--grey-bg-2);
+}
+.sc-2 .wrapper-sc-2 .cards .card .card__prepay-link:last-child {
+    margin-bottom: unset;
+}
+.sc-2 .wrapper-sc-2 .present {
+    position: relative;
+}
+.sc-2 .wrapper-sc-2 .present .present__image {
+    width: 100%;
+}
+.sc-2 .wrapper-sc-2 .present .present__courses {
+    display: flex;
+    flex-direction: column;
+    color: var(--grey-bg-1);
+    position: absolute;
+    top: 58%;
+    left: 44.5%;
+    z-index: 1;
+}
+.sc-2 .wrapper-sc-2 .present .present__courses .present__course {
+    font-family: "HelveticaNeueCyrMedium";
+    font-size: 24px;
+    line-height: 150%;
+}
+.sc-2 .wrapper-sc-2 .present .present__courses .present__course b {
+    font-family: "HelveticaNeueCyrHeavy";
+}
+
+/*section 3*/
+.sc-3 {
+    background: var(--yelow-text);
+}
+.sc-3 .wrapper-sc-3 {
+    padding-top: 49px;
+    padding-bottom: 60px;
+    color: var(--dark-text-1);
+}
+.sc-3 .wrapper-sc-3 h3.h3 {
+    font-family: "HelveticaNeueCyrMedium";
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 23px;
+}
+.sc-3 .wrapper-sc-3 .welcome-text {
+    max-width: 424px;
+    font-family: "Montserrat";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 110%;
+    text-align: center;
+    margin: 0 auto 34px;
+}
+.sc-3 .wrapper-sc-3 .form-wrapper {
+    width: 100%;
+    max-width: 553px;
+    margin: 0 auto 26px;
+    position: relative;
+}
+.sc-3 .wrapper-sc-3 .form-wrapper .sign-up-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.sc-3 .wrapper-sc-3 .form-wrapper .sign-up-form .sign-up-form__input {
+    width: 100%;
+    height: 80px;
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.24px;
+    text-align: center;
+    color: var(--dark-text-2);
+    background: var(--white-text);
+    border-radius: 10px;
+}
+.sc-3 .wrapper-sc-3 .form-wrapper .sign-up-form .sign-up-form__btn {
+    width: 100%;
+    height: 80px;
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 23px;
+    text-transform: uppercase;
+    background: var(--red);
+    color: var(--white-text);
+    margin-top: 3px;
+    border-radius: 10px;
+}
+.sc-3 .wrapper-sc-3 .policy-tip {
+    max-width: 567px;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: var(--dark-text-1);
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*footer*/
+footer {
+    background: var(--grey-bg-1);
+    color: var(--white-text);
+}
+footer .wrapper-footer {
+    padding-top: 27px;
+    padding-bottom: 54px;
+}
+footer .wrapper-footer .foot-logo {
+    display: block;
+    margin: 0 auto 30px;
+}
+footer .wrapper-footer .policy-agreement {
+    font-family: "HelveticaNeueCyrRoman";
+    font-size: 22px;
+    line-height: 180%;
+    letter-spacing: -0.44px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 32px;
+}
+footer .wrapper-footer .address {
+    font-family: "HelveticaNeueCyrRoman";
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.32px;
+    margin-bottom: 43px;
+}
+footer .wrapper-footer .social-links {
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    align-items: center;
+}
+footer .wrapper-footer .social-links a {
+    transition-duration: .3s;
+}
+footer .wrapper-footer .social-links a:hover {
+    transform: translateY(-5px);
+}
+
+
+
+@media screen and (min-width: 1441px) {
+    .sc-1 .man {
+        right: 10%;
+    }
+}
+@media screen and (min-width: 1801px) {
+    .sc-1 .man {
+        right: 20%;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .sc-1 .granos-1 {
+        left: -80px;
+    }
+    .sc-1 .granos-2 {
+        right: -100px;
+    }
+    .sc-1 .man {
+        right: 0;
+    }
+    .sc-1 .wrapper-head .head-logo {
+        width: 14vw;
+        height: 7vw;
+        margin-bottom: 1.715vw;
+    }
+    .sc-1 .wrapper-head h2.head-text {
+        /*max-width: 55%;*/
+        font-size: 3.1vw;
+        margin-bottom: 1.715vw;
+    }
+    .sc-1 .wrapper-head h3.head-text {
+        max-width: 47%;
+        font-size: 2.5vw;
+        margin-bottom: 3.786vw;
+    }
+    .sc-1 .wrapper-head h3.head-text b {
+        font-size: 2.5vw;
+    }
+
+    .sc-2 .wrapper-sc-2 .cards .card .card__prepay-link {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .sc-1 .granos-2 {
+        position: absolute;
+        top: 0;
+        right: -100px;
+        height: 100%;
+        z-index: 0;
+    }
+    .sc-1 .man {
+        width: 348px;
+        height: 453px;
+        bottom: -2px;
+        right: -20px;
+    }
+    .sc-1 .wrapper-head {
+        padding-top: 12px;
+        padding-bottom: 73px;
+    }
+    .sc-1 .wrapper-head .dates {
+        gap: 16px;
+        margin-bottom: 31px;
+    }
+    .sc-1 .wrapper-head .dates .date {
+        width: 173px;
+        height: 44px;
+        gap: 11px;
+        padding: 5px 8px;
+    }
+    .sc-1 .wrapper-head .dates .date .date__num {
+        font-size: 30px;
+    }
+    .sc-1 .wrapper-head .dates .date .date__right .date__month {
+        font-size: 16px;
+    }
+    .sc-1 .wrapper-head .buttons {
+        gap: 8px;
+    }
+    .sc-1 .wrapper-head .buttons .head-btn {
+        width: 189px;
+        height: 51px;
+        font-size: 16px;
+    }
+    .sc-1 .wrapper-head .buttons .head-btn--transparent {
+        width: 213px;
+    }
+
+    .sc-2 .wrapper-sc-2 {
+        padding-top: 60px;
+        padding-bottom: 64px;
+    }
+    .sc-2 .wrapper-sc-2 h2.h2 {
+        font-size: 32px;
+        margin-bottom: 55px;
+    }
+    .sc-2 .wrapper-sc-2 .cards {
+        margin-bottom: 70px;
+    }
+    .sc-2 .wrapper-sc-2 .cards .card {
+        padding: 20px 17px 17px;
+        border-radius: 10px;
+    }
+    .sc-2 .wrapper-sc-2 .cards .card .card__title {
+        font-family: "HelveticaNeueCyrMedium";
+        font-size: 21px;
+        margin-bottom: 25px;
+    }
+    .sc-2 .wrapper-sc-2 .cards .card .card__price {
+        display: inline-block;
+        font-size: 40px;
+        line-height: 54px;
+        position: relative;
+    }
+    .sc-2 .wrapper-sc-2 .cards .card .card__price .card__discount {
+        width: 58px;
+        height: 29px;
+        font-size: 15px;
+        right: -22px;
+        bottom: -5px;
+    }
+    .sc-2 .wrapper-sc-2 .cards .card .card__old-price {
+        font-size: 21px;
+        margin-bottom: 28px;
+        line-height: 108%;
+    }
+
+    .sc-2 .wrapper-sc-2 .cards .card .card__points {
+        margin-bottom: 21px;
+    }
+    .sc-2 .wrapper-sc-2 .cards .card .card__point {
+        gap: 11px;
+    }
+    .sc-2 .wrapper-sc-2 .cards .card .card__point .card__point-text {
+        font-size: 10px;
+    }
+
+    .sc-2 .wrapper-sc-2 .cards .card .card__prepay {
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    .sc-2 .wrapper-sc-2 .cards .card .card__prepay-num {
+        font-size: 27px;
+        margin-bottom: 18px;
+    }
+    .sc-2 .wrapper-sc-2 .cards .card .card__prepay-link {
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: -0.2px;
+        padding: 10px 15px;
+        margin-bottom: 9px;
+    }
+    /**/
+    .sc-2 .wrapper-sc-2 .present .present__courses .present__course {
+        font-size: calc((100vw - 100px) / 100 * 2.11);
+    }
+    /**/
+
+    .sc-3 .wrapper-sc-3 {
+        padding-top: 37px;
+        padding-bottom: 45px;
+    }
+    .sc-3 .wrapper-sc-3 h3.h3 {
+        font-size: 26px;
+        line-height: 20px;
+        margin-bottom: 17px;
+    }
+    .sc-3 .wrapper-sc-3 .welcome-text {
+        max-width: 324px;
+        font-size: 16px;
+        margin: 0 auto 24px;
+    }
+    .sc-3 .wrapper-sc-3 .form-wrapper {
+        max-width: 350px;
+    }
+    .sc-3 .wrapper-sc-3 .form-wrapper .sign-up-form {
+        margin-bottom: 18px;
+    }
+    .sc-3 .wrapper-sc-3 .form-wrapper .sign-up-form .sign-up-form__input {
+        height: 50px;
+        font-size: 18px;
+        letter-spacing: 0.12px;
+        border-radius: 8px;
+    }
+    .sc-3 .wrapper-sc-3 .form-wrapper .sign-up-form .sign-up-form__btn {
+        height: 50px;
+        font-size: 22px;
+        margin-top: unset;
+        border-radius: 8px;
+    }
+    .sc-3 .wrapper-sc-3 .policy-tip {
+        max-width: 335px;
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    footer .wrapper-footer {
+        padding-top: 17px;
+        padding-bottom: 40px;
+    }
+    footer .wrapper-footer .foot-logo {
+        width: 121px;
+        height: 54px;
+        margin-bottom: 15px;
+    }
+    footer .wrapper-footer .policy-agreement {
+        font-size: 14px;
+        letter-spacing: -0.28px;
+        margin-bottom: 12px;
+    }
+    footer .wrapper-footer .address {
+        font-size: 11px;
+        line-height: 150%;
+        letter-spacing: -0.22px;
+        margin-bottom: 16px;
+    }
+    footer .wrapper-footer .social-links {
+        gap: 8px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .sc-1 .granos-1 {
+        left: -47px;
+        top: 89px;
+        height: 87%;
+    }
+    .sc-1 .granos-2 {
+        top: unset;
+        bottom: -21px;
+        right: -111px;
+        height: 104%;
+        filter: blur(2px);
+    }
+    .sc-1 .man {
+        width: 348px;
+        height: 453px;
+        bottom: -2px;
+        right: -30px;
+    }
+    .sc-1 .wrapper-head .head-logo {
+        width: 104px;
+        height: 48px;
+        margin-bottom: 38px;
+    }
+    .sc-1 .wrapper-head h2.head-text {
+        font-size: 33px;
+        margin-bottom: 25px;
+    }
+    .sc-1 .wrapper-head h3.head-text {
+        max-width: 340px;
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+    .sc-1 .wrapper-head h3.head-text b {
+        font-size: 22px;
+    }
+
+    .sc-2 .wrapper-sc-2 {
+        padding-top: 44px;
+        padding-bottom: 37px;
+    }
+    .sc-2 .wrapper-sc-2 h2.h2 {
+        font-family: "HelveticaNeueCyrRoman";
+        font-size: 24px;
+        line-height: 120%;
+        margin-bottom: 53px;
+    }
+    .sc-2 .wrapper-sc-2 .cards {
+        gap: 18px;
+        margin-bottom: 37px;
+    }
+    .sc-2 .wrapper-sc-2 .cards .card {
+        border: 1px solid rgba(104, 104, 104, 0.40);
+        padding: 17px 15px 15px;
+        border-radius: 5px;
+    }
+    .sc-2 .wrapper-sc-2 .cards .card .card__title {
+        font-size: 16px;
+        margin-bottom: 18px;
+    }
+    .sc-2 .wrapper-sc-2 .cards .card .card__price {
+        font-size: 30px;
+        margin-bottom: 8px;
+        line-height: 108%;
+    }
+    .sc-2 .wrapper-sc-2 .cards .card .card__price .card__discount {
+        width: 46px;
+        height: 23px;
+        font-size: 12px;
+        border-radius: 3px;
+        right: -9px;
+        bottom: -9px;
+    }
+    .sc-2 .wrapper-sc-2 .cards .card .card__old-price {
+        font-size: 18px;
+        margin-bottom: 23px;
+        padding-left: 2px;
+        padding-right: 4px;
+    }
+
+    .sc-2 .wrapper-sc-2 .cards .card .card__points {
+        margin-bottom: 18px;
+    }
+    .sc-2 .wrapper-sc-2 .cards .card .card__point {
+        gap: 5px;
+        letter-spacing: -0.1px;
+        margin-bottom: 11px;
+    }
+    .sc-2 .wrapper-sc-2 .cards .card .card__point .card__point-check {
+        width: 6px;
+        height: 6px;
+    }
+    .sc-2 .wrapper-sc-2 .cards .card .card__point .card__point-text {
+        font-size: 8px;
+        letter-spacing: -.2px;
+    }
+
+    .sc-2 .wrapper-sc-2 .cards .card .card__prepay {
+        font-size: 12px;
+        margin-bottom: 3px;
+    }
+    .sc-2 .wrapper-sc-2 .cards .card .card__prepay-num {
+        font-size: 22px;
+        margin-bottom: 16px;
+    }
+    .sc-2 .wrapper-sc-2 .cards .card .card__prepay-link {
+        font-size: 8px;
+        line-height: 11px;
+        border-radius: 5px;
+        padding: 9px 13px;
+        margin-bottom: 5px;
+    }
+
+    .sc-3 .wrapper-sc-3 {
+        padding-top: 22px;
+        padding-bottom: 29px;
+    }
+    .sc-3 .wrapper-sc-3 h3.h3 {
+        font-size: 20px;
+        margin-bottom: 11px;
+    }
+    .sc-3 .wrapper-sc-3 .welcome-text {
+        max-width: 226px;
+        font-size: 12px;
+        margin: 0 auto 16px;
+    }
+    .sc-3 .wrapper-sc-3 .form-wrapper {
+        max-width: 268px;
+    }
+    .sc-3 .wrapper-sc-3 .form-wrapper .sign-up-form {
+        margin-bottom: 11px;
+    }
+    .sc-3 .wrapper-sc-3 .form-wrapper .sign-up-form .sign-up-form__input {
+        height: 37px;
+        font-size: 12px;
+        border-radius: 6px;
+    }
+    .sc-3 .wrapper-sc-3 .form-wrapper .sign-up-form .sign-up-form__btn {
+        height: 37px;
+        font-size: 14px;
+        border-radius: 6px;
+    }
+    .sc-3 .wrapper-sc-3 .policy-tip {
+        max-width: 225px;
+        font-size: 8px;
+        line-height: 8px;
+    }
+}
+
+@media screen and (max-width: 782px) {
+    .sc-1 .granos-2 {
+        right: -166px;
+    }
+    .sc-1 .man {
+        right: -120px;
+    }
+
+    .sc-2 .wrapper-sc-2 .cards {
+        flex-wrap: wrap;
+        gap: 11px;
+    }
+    .sc-2 .wrapper-sc-2 .cards .card {
+        width: calc((100% - 11px) / 2);
+    }
+    .sc-2 .wrapper-sc-2 .cards .card .card__title {
+        font-size: 26px;
+    }
+    .sc-2 .wrapper-sc-2 .cards .card .card__price {
+        font-size: 50px;
+    }
+    .sc-2 .wrapper-sc-2 .cards .card .card__price .card__discount {
+        width: 69px;
+        height: 37px;
+        font-size: 19px;
+        right: -13px;
+        bottom: -13px;
+    }
+    .sc-2 .wrapper-sc-2 .cards .card .card__old-price {
+        font-size: 24px;
+    }
+    .sc-2 .wrapper-sc-2 .cards .card .card__point {
+        align-items: center;
+    }
+    .sc-2 .wrapper-sc-2 .cards .card .card__point .card__point-check {
+        width: 8px;
+        height: 8px;
+    }
+    .sc-2 .wrapper-sc-2 .cards .card .card__point .card__point-text {
+        font-size: 12px;
+    }
+    .sc-2 .wrapper-sc-2 .cards .card .card__prepay {
+        font-size: 22px;
+        margin-bottom: 6px;
+    }
+    .sc-2 .wrapper-sc-2 .cards .card .card__prepay-num {
+        font-size: 32px;
+        line-height: 108%;
+    }
+    .sc-2 .wrapper-sc-2 .cards .card .card__prepay-link {
+        font-size: 14px;
+        line-height: 23px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .sc-1 .granos-1 {
+        left: -49px;
+        top: 191px;
+        height: 87%;
+        transform: matrix(-1, 0, 0, 1, 0, 0) rotate(198deg);
+    }
+    .sc-1 .granos-2 {
+        filter: unset;
+        bottom: -31px;
+        transform: rotate(-26.428deg);
+    }
+    .sc-1 .wrapper-head {
+        padding-top: 15px;
+        padding-bottom: 38px;
+    }
+    .sc-1 .wrapper-head .head-logo {
+        width: 66px;
+        height: 31px;
+        margin-bottom: 38px;
+    }
+    .sc-1 .wrapper-head h2.head-text {
+        width: 363px;
+        font-size: 24px;
+        margin-bottom: 17px;
+    }
+    .sc-1 .wrapper-head h3.head-text {
+        max-width: 220px;
+        font-size: 14px;
+        letter-spacing: -0.56px;
+        margin-bottom: 16px;
+    }
+    .sc-1 .wrapper-head h3.head-text b {
+        font-family: "HelveticaNeueCyrBlack";
+        font-size: 14px;
+    }
+    .sc-1 .wrapper-head .dates {
+        flex-direction: column;
+        gap: 13px;
+        margin-bottom: 47px;
+    }
+    .sc-1 .wrapper-head .dates .date {
+        background: var(--grey-bg-3);
+    }
+    .sc-1 .wrapper-head .buttons {
+        flex-direction: column;
+        gap: 8px;
+    }
+    .sc-1 .wrapper-head .buttons .head-btn {
+        width: 264px;
+        height: 52px;
+        font-size: 18px;
+    }
+    .sc-1 .wrapper-head .buttons .head-btn--transparent {
+        width: 264px;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .sc-1 .granos-1 {
+        left: -58px;
+        top: 249px;
+    }
+    .sc-1 .granos-2 {
+        width: 579px;
+        height: 393px;
+        bottom: 212px;
+        right: -225px;
+        transform: matrix(0.9, 0.2, 0, 1, 0, 0) rotate(-30.428deg);
+    }
+    .sc-1 .man {
+        width: 331px;
+        right: -144px;
+        height: 432px;
+        bottom: 113px;
+    }
+    .sc-1 .wrapper-head h2.head-text {
+        width: 209px;
+    }
+    .sc-1 .wrapper-head h3.head-text {
+        max-width: 128px;
+    }
+    .sc-1::before {
+        content: '';
+        width: 150%;
+        height: 206px;
+        background: #F8C712;
+        filter: blur(37.5px);
+        position: absolute;
+        bottom: -55px;
+        left: -96px;
+        z-index: 2;
+    }
+
+    .sc-2 .wrapper-sc-2 {
+        padding-top: 42px;
+        padding-bottom: 29px;
+    }
+    .sc-2 .wrapper-sc-2 .cards {
+        gap: 20px;
+    }
+    .sc-2 .wrapper-sc-2 .cards .card {
+        width: 100%;
+        border-radius: 10px;
+        padding: 32px 24px 22px;
+    }
+    .sc-2 .wrapper-sc-2 .cards .card .card__title {
+        font-size: 26px;
+        margin-bottom: 24px;
+    }
+    .sc-2 .wrapper-sc-2 .cards .card .card__old-price {
+        margin-bottom: 33px;
+    }
+    .sc-2 .wrapper-sc-2 .cards .card .card__points {
+        margin-bottom: 25px;
+    }
+    .sc-2 .wrapper-sc-2 .cards .card .card__point {
+        gap: 15px;
+    }
+    .sc-2 .wrapper-sc-2 .cards .card .card__prepay-num {
+        margin-bottom: 21px;
+    }
+    .sc-2 .wrapper-sc-2 .cards .card .card__prepay-link {
+        border-radius: 10px;
+        margin-bottom: 12px;
+    }
+
+    .sc-3 .wrapper-sc-3 {
+        padding-top: 32px;
+        padding-bottom: 25px;
+    }
+    .sc-3 .wrapper-sc-3 h3.h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .sc-3 .wrapper-sc-3 .form-wrapper .sign-up-form {
+        margin-bottom: 16px;
+    }
+    .sc-3 .wrapper-sc-3 .form-wrapper .sign-up-form .sign-up-form__input {
+        border-radius: 10px;
+    }
+    .sc-3 .wrapper-sc-3 .form-wrapper .sign-up-form .sign-up-form__btn {
+        border-radius: 6px;
+    }
+
+    footer .wrapper-footer .foot-logo {
+        width: 77px;
+        height: 34px;
+        margin-bottom: 16px;
+    }
+    footer .wrapper-footer .policy-agreement {
+        font-size: 8px;
+        letter-spacing: -0.16px;
+    }
+    footer .wrapper-footer .address {
+        font-size: 8px;
+        letter-spacing: -0.16px;
+    }
+    footer .wrapper-footer .social-links .social-links__img:first-child {
+        width: 18px;
+        height: 9px;
+    }
+    footer .wrapper-footer .social-links .social-links__img:last-child {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .sc-1 .wrapper-head .buttons .head-btn {
+        width: 100%;
+    }
+}
